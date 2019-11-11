@@ -90,6 +90,7 @@ hr {
 /* Navigation */
 #nav {
 	z-index: 9999;
+	background-color: #333448;
 }
 .main-nav {
 	width: 100%;
@@ -205,7 +206,7 @@ hr {
 /* Motto Section */
 #motto {
 	background-color: #333448;
-	padding: 51px 0px;
+	padding: 54px 0px;
 }
 .motto-text p {
 	color: #919191;
@@ -655,9 +656,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 @media(min-width:768px) {
 .intro {
 	height: 100%;
-	padding: 0;
 	text-align: left;
 	color: #fff;
+	padding: 70px;
 }
 .intro H1 {
 	font-size: 60px;
