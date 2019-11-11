@@ -760,8 +760,8 @@ header .intro-text {
 	padding: 10px 100px 20px 20px;
 }
 }
-@media (aspect-ratio: 16/9) {
-	.intro {
-		padding-top: 20px;
+@media screen and (device-aspect-ratio: 16/9) {
+	header .intro-text {
+		padding-top: 80px;
 	}
 }
