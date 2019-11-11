@@ -91,11 +91,15 @@ hr {
 #nav {
 	z-index: 9999;
 }
-#nav.affix {
+.main-nav {
+	width: 100%;
+	z-index: 9999;
+}
+/* #nav.affix {
 	position: fixed;
 	top: 0;
 	width: 100%
-}
+} */
 .navbar-custom {
 	margin-bottom: 0;
 	background-color: #333448;
@@ -115,6 +119,7 @@ hr {
 }
 .navbar-custom .navbar-brand .navbar-toggle:focus, .navbar-custom .navbar-brand .navbar-toggle:active {
 	outline: 0;
+	background-color: transparent;
 }
 .navbar-custom a {
 	color: #f4f5f6;
@@ -200,7 +205,7 @@ hr {
 /* Motto Section */
 #motto {
 	background-color: #333448;
-	padding: 40px 0px;
+	padding: 51px 0px;
 }
 .motto-text p {
 	color: #919191;
@@ -510,8 +515,9 @@ ol.type li a:hover {
 	background: #fff;
 }
 .timeline>li .timeline-image h4 {
-	margin-top: 20px;
-	font-size: 14px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	font-size: 12px;
 	text-transform: uppercase;
 }
 .timeline>li.timeline-inverted>.timeline-panel {
