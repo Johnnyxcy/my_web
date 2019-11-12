@@ -17,13 +17,6 @@ function main() {
       }
     });
 
-    // Auto hide drop down when click on section name
-    $('#nav-collapse').click(function() {
-      if ($('#nav-collapse').hasClass('in')) {
-        $('#nav-collapse').collapse('hide');
-      }
-    });
-
     // Auto hide drop down when click on other place
     $(window).click(function() {
       if ($('#nav-collapse').hasClass('in')) {
